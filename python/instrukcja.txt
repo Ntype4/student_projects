@@ -1,0 +1,20 @@
+----------------------------------------
+Instrukcja uruchamiania projektow
+         na zajeciach  
+PODSTAWY PROGRAMOWANIA (i pokrewnych)
+
+jezyk: python
+----------------------------------------
+
+1. Folder z projektami zawiera projekt "szablon".
+2. By rozpoczac nowe cwiczenie skopiuj projekt "szablon" nadajac kopii nazwe cwiczenia.
+   Polecenie: cp -R szablon nazwa_cwiczenia
+3. Wejdz do folderu z cwiczeniem.
+   Polecenie: cd nazwa_cwiczenia
+4. Zrodlo programu wpisz w pliku main.py np. edytorem tekstu nano
+   Polecenie: nano main.py
+5. Zapisz zrodlo programu (w nano ctrl+o, wyjscie ctr+x)
+6. Uruchom program.
+   Polecenie: python3 main.py
+7. W przypadku dokonaj edycji pliku ze zrodlem programu
+   lub przetestuj dzialajacy program.

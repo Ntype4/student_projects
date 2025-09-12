@@ -1,0 +1,20 @@
+----------------------------------------
+Instrukcja uruchamiania projektow
+         na zajeciach  
+PODSTAWY PROGRAMOWANIA (i pokrewnych)
+
+jezyk: c++
+----------------------------------------
+
+1. Folder z projektami zawiera projekt "szablon".
+2. By rozpoczac nowe cwiczenie skopiuj projekt "szablon" nadajac kopii nazwe cwiczenia.
+   Polecenie: cp -R szablon nazwa_cwiczenia
+3. Wejdz do folderu z cwiczeniem.
+   Polecenie: cd nazwa_cwiczenia
+4. Zrodlo programu wpisz w pliku main.cpp np. edytorem tekstu nano
+   Polecenie: nano main.cpp
+5. Zapisz zrodlo programu (w nano ctrl+o, wyjscie ctr+x)
+6. Skompiluj i uruchom program przygotowanym skryptem.
+   Polecenie: ./kompiluj.sh
+7. W przypadku bledow w kompilacji dokonaj edycji pliku ze zrodlem programu
+   lub przetestuj dzialajacy program.
