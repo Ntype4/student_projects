@@ -1,0 +1,3 @@
+main.cpp:26:9: error: ‘bufor’ does not name a type
+   26 |         bufor << plik.rdbuf();
+      |         ^~~~~
